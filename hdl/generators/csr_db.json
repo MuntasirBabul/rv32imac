@@ -13,7 +13,7 @@
   {"name": "mimpid",       "addr": "0xF13", "priv": "M", "rw": "RO", "reset": "0"},
   {"name": "mhartid",      "addr": "0xF14", "priv": "M", "rw": "RO", "reset": "0"},
   {"name": "mstatus",      "addr": "0x300", "priv": "M", "rw": "RW", "reset": "0"},
-  {"name": "misa",         "addr": "0x301", "priv": "M", "rw": "RO", "reset": "32'h40101105"},
+  {"name": "misa",         "addr": "0x301", "priv": "M", "rw": "RO", "reset": "40101105"},
   {"name": "medeleg",      "addr": "0x302", "priv": "M", "rw": "RW", "reset": "0"},
   {"name": "mideleg",      "addr": "0x303", "priv": "M", "rw": "RW", "reset": "0"},
   {"name": "mie",          "addr": "0x304", "priv": "M", "rw": "RW", "reset": "0"},

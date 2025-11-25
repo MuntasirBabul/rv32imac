@@ -20,7 +20,7 @@ pkg_lines = [
 ]
 for c in csrs:
     pkg_lines.append(f"    CSR_{c['name'].upper():<15} = 12'h{c['addr'][2:]} ,")
-pkg_lines[-1] = pkg_lines[-1].rstrip(",")  # remove last comma
+#pkg_lines[-1] = pkg_lines[-1].rstrip(",")  # remove last comma
 pkg_lines += [
     "    CSR_NONE = 12'hFFF",
     "  } csr_addr_t;",
